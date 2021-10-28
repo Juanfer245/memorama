@@ -1,0 +1,13 @@
+memorama
+root=ancho tarjeta 70vw ancho de pantalla por 6
+transition=0.5s
+cada tajeta y caras debe tener cursor pointer
+-webkit-perspective:1000=efecto 3d
+area-tarjeta=width=tamano height
+tarjeta posicion relativa y su cara absoluto
+en cada cara de la tajeta sera de min-width de 80px 
+area-tarjeta:hover=rote 180grados al momento de pasar el mouse y se de click amuestre la cara
+caratraser=180grados para que se vea
+tarjetas.sort=poner en desorden las tarjetas al iniciar un juego nuevo
+function seleccionartarjeta(i)=le tarjeta=document.getElementbyId(tarjeta + indice)
+let selecciones=cadaq que se selecciones 2 queden volteadas los imagenes pares
